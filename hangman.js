@@ -7,7 +7,7 @@ function restart(){
 }
 
 const retry=document.querySelector('.end_game').innerHTML;
-const words=['hangman','javascript','HTML','yacine','houssem','Abdellah','Rayan','la3ziz','tarek','pascal','nazim','computer','science','chatgpt','programing','Algeria'];
+const words=['hangman','javascript','HTML','yacine','houssem','Abdellah','Rayan','la3ziz','tarek','pascal','nazim','azzouza','computer','science','chatgpt','programing','Algeria'];
 let computerchoise;
 let hidden='';
 let guess='';
