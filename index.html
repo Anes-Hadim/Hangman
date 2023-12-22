@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hangman</title>
+</head>
+<body>
+  <div class="end_game">
+      <p>Welcome to Hangman game</p>
+      <p class="word"></p>
+      <p class="hint"></p>
+      <p class="js_trys"></p>
+      <input class="user_input" placeholder="Enter your letter or word" onkeydown="enter(event)">
+      <button onclick="user_guess()">Enter</button>
+      <p class="previeus"></p>
+    </div>
+    <script src="hangman.js"></script>
+</body>
+</html>
